@@ -135,7 +135,10 @@ body {
 .container_12 .grid_11 {
   width: 860px;
 }
-
+.containter_12 .grid_12 .footer{
+	background-color: #EDEDED;
+	font-size:25px;
+}
 /* `Grid >> 16 Columns
 ----------------------------------------------------------------------------------------------------*/
 
@@ -640,6 +643,7 @@ body {
 .container_16:after {
   clear: both;
 }
+
 
 /*
   The following zoom:1 rule is specifically for IE6 + IE7.
