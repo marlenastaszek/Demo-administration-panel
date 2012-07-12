@@ -3281,7 +3281,9 @@ background-image: url(../img/toolbars.jpg);
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff;
 }
-
+.nav-list .foot{
+color:@white;
+}
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
@@ -4992,4 +4994,14 @@ a.badge:hover {
   visibility: hidden;
 }
 
-f
+footer{
+padding: 20px 10px;
+background: #333;
+background-image: linear-gradient(bottom, #363636 0%, #5E5E5E 100%);
+background-image: -o-linear-gradient(bottom, #363636 0%, #5E5E5E 100%);
+background-image: -moz-linear-gradient(bottom, #363636 0%, #5E5E5E 100%);
+background-image: -webkit-linear-gradient(bottom, #363636 0%, #5E5E5E 100%);
+background-image: -ms-linear-gradient(bottom, #363636 0%, #5E5E5E 100%);
+background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #363636), color-stop(1, #5E5E5E) );
+color: #CCC;
+}
