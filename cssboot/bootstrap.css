@@ -445,7 +445,7 @@ h6 {
   margin: 0;
   font-family: inherit;
   font-weight: bold;
-  color: inherit;
+  color: #fff;
   text-rendering: optimizelegibility;
 }
 
@@ -471,6 +471,8 @@ h1 small {
 h2 {
   font-size: 24px;
   line-height: 36px;
+  color: #fff;
+  background-image: url(../img/search.jpg);
 }
 
 h2 small {
@@ -1438,7 +1440,8 @@ select:focus:required:invalid:focus {
 .form-search .input-append,
 .form-inline .input-append,
 .form-search .input-prepend,
-.form-inline .input-prepend {
+.form-inline .input-prepend 
+{
   margin-bottom: 0;
 }
 .form-search
@@ -1446,7 +1449,8 @@ select:focus:required:invalid:focus {
 background-image: url(../img/search.jpg)
 }
 .form-inline{
-background-image: url(../img/log.jpg)
+background-image: url(../img/headerBg.png);
+text-align: right;
 }
 
 
